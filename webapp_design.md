@@ -10,28 +10,28 @@
 ## 第2章 结构和语义    
 - 微格式：通过使用现有属性的标准化标记模式，给内容添加了更多的属性    
 既是一种设计原则，也是一组标准用法模式，例如hCard模式：
-```<div class=”vCard”>    
+`<div class=”vCard”>    
 <p><a href=”http://about.me/petergasston” class=”url fn”>PeterGasston</a>    
 Write for<a href=”http://broken-links.com” class=”url org”>BrokenLinks</a>.</p>    
 </div>   
 ”url fn”-联系人全名    
-”url org”-联系人工作单位 ```   
+”url org”-联系人工作单位 `
 
 - RDFa：资源描述格式属性（Resource Description Format in Attributes, RDFa）    
 使用一套全新的定制属性为内容提供上下文，RDFa Core和RDFa Lite，都依赖预定义schema（数据说明）来描述内容，例如：    
-```<p property=”http://purl.org/dc/elements/1.1/date”content=”2013-04-01”>April</p>    
-”http://purl.org/dc/elements/1.1/date”-术语“date”相关描述的url，来自一个架构（Dublin Core）的标准化词汇表的一部分 ```   
+`<p property=”http://purl.org/dc/elements/1.1/date”content=”2013-04-01”>April</p>    
+”http://purl.org/dc/elements/1.1/date”-术语“date”相关描述的url，来自一个架构（Dublin Core）的标准化词汇表的一部分 `
 ”2013-04-01”机器读到的是该属性的值    
 April人看到的是元素内容    
 
 - 微数据：一系列提供富有意义的机读数据的名称值对，如：    
-```<p itemscope> I live in <span itemprop=”city”> London </span></p>```
+`<p itemscope> I live in <span itemprop=”city”> London </span></p>`
 Itemscope被用于标记此特定项的界限或范围的包含元素    
 Itemprop属性的值是名称，”City”    
 Itemprop元素的内容是值，”London”    
 和RDFa一样，通过itemtype属性链接到内容，可以用预定义架构来描述内容:    
-```<p itemscope itemtype=”http://example.org/birthday”>My birthday this year is on    
-<span itemprop=”birthday” datatime=”2013-12-14”>December 14</span>.</p>``` 
+`<p itemscope itemtype=”http://example.org/birthday”>My birthday this year is on    
+<span itemprop=”birthday” datatime=”2013-12-14”>December 14</span>.</p>`
 微数据API：DOM API=>提取页面中的数据，参见microdata-api.html    
 说明：    
 <p>标签定义段落    
