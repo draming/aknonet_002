@@ -19,3 +19,4 @@
 
 ### part III 产品技术类
 - [《实例化需求：团队如何交付正确的软件》 书摘（20150607）](require_manage_via_example.md)
+- [《敏捷可执行需求说明-Scrum提炼及实现技术》 书摘（20150612）](scrum.md)
