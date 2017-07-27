@@ -10,9 +10,11 @@
 - [《企业成功定律》 书摘（20150215）](success_law_for_corp.md)
 - [《中小企业老总的制胜之道:数字化老总》 书摘（20150302）](manage_via_numbers.md)
 - [《管理至简》 书摘（20150302）](manage_simple.md)
+- [《学习观察：通过价值流图创造价值、消除浪费》 书摘（20150319）](lean_management.md)
 - [《精益制造012：BOM物料管理》 书摘（20150513）](bom.md)
 - [《战略管理——竞争与全球化（概念）》 书摘（20170109）](stategy_globalize.md)
 - [《大象的困局》书摘（20170114）](elephant_way_through.md)
+
 
 
 
