@@ -16,6 +16,7 @@
 - [《精益制造012：BOM物料管理》 书摘（20150513）](bom.md)
 - [《战略管理——竞争与全球化（概念）》 书摘（20170109）](stategy_globalize.md)
 - [《大象的困局》书摘（20170114）](elephant_way_through.md)
+- [《股东行为治理》 书摘（20170219）](shareholder_gov.md)
 
 
 
