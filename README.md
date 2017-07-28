@@ -2,6 +2,7 @@
 - [《知识的边界》 书摘（20160516）](knowledge_boundary.md)
 - [《行为背后的动机》 书摘（20160811）](motive_behind.md)
 - [《黑天鹅：如何应对不可预知的未来》 书摘（20160820）](black_swan.md)
+- [《终极算法》 书摘（20170709）](master_algorithm.md)
 
 
 
